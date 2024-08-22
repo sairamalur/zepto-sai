@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <title>Zepto website</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js" integrity="sha512-7Pi/otdlbbCR+LnW+F7PwFcSDJOuUJB3OxtEHbg4vSMvzvJjde4Po1v4BR9Gdc9aXNUNFVUY+SK51wWT8WF0Gg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- nav bar section  -->
+   <div class="container-fluid sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" style="color: blue; font-weight: bold;">Zepto</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#" style="color: white;">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"  style="color: white;">login</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"  style="color: white;">
+                    <i class="fa-solid fa-cart-shopping"></i>cart
+                </a>
+                <!-- <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown"> -->
+                  <!-- <li><a class="dropdown-item" href="#">cart</a></li> -->
+                  <!-- <li><a class="dropdown-item" href="#">Another action</a></li> -->
+                  <li><hr class="dropdown-divider"></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <!-- <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Link</a> -->
+              </li>
+            </ul>
+            <form class="d-flex w-50">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+   </div>
+     <!-- nav bar section end here -->
+
+     <!-- image pics  -->
+      <div class="container mt-5 ">
+        <div class="row">
+            <div class="col-md-12">
+                <img class="img-fluid" src="https://cdn.zeptonow.com/web-static-assets-prod/artifacts/11.9.0/tr:w-1280,ar-1438-235,pr-true,f-auto,q-80//images/paan-corner/paan-corner-banner-desktop.png" alt="image-1">
+            </div>
+        </div>
+      </div>
+      <!-- img pic ends here  -->
+
+
+       <!-- carsol start here -->
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="https://cdn.zeptonow.com/production///tr:w-1280,ar-1312-520,pr-true,f-auto,q-80/inventory/banner/a32629a2-7a06-4654-ad1f-2caade836e80.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="https://cdn.zeptonow.com/production///tr:w-720,ar-720-148,pr-true,f-auto,q-80/inventory/banner/69649120-3726-4004-896e-17f5bd3a836d.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="https://cdn.zeptonow.com/production///tr:w-720,ar-720-148,pr-true,f-auto,q-80/inventory/banner/c7d3afb4-d13f-41a6-b30f-cdd3527c570f.png" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+
+
+            </div>
+        </div>
+    </div>
+        <!-- carosal end here -->
+         <!-- card starts here -->
+          <div class="container mt-5">
+            <div class="row sai">
+                <div class="col-md-2">
+                    <div class="card">
+                        <img src="https://cdn.zeptonow.com/production///tr:w-206,ar-206-282,pr-true,f-auto,q-80/inventory/banner/1d863abf-a207-4d2e-96b0-3bdd8fc55f30.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card">
+                        <img src="https://cdn.zeptonow.com/production///tr:w-205,ar-205-282,pr-true,f-auto,q-80/inventory/banner/bef7afce-8072-460b-ad38-4ca9abe8058b.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card">
+                        <img src="https://cdn.zeptonow.com/production///tr:w-205,ar-205-282,pr-true,f-auto,q-80/inventory/banner/74a764f0-3e27-474c-81af-f1c39b697ca2.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card">
+                        <img src="https://cdn.zeptonow.com/production///tr:w-206,ar-206-282,pr-true,f-auto,q-80/inventory/banner/b8982680-6f7a-4845-bdfd-5bfbc0c8ffda.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card">
+                        <img src="https://cdn.zeptonow.com/production///tr:w-205,ar-205-281,pr-true,f-auto,q-80/inventory/banner/b71863a6-7b3a-4aa7-9534-c07717eb2f8b.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card">
+                        <img src="https://cdn.zeptonow.com/production///tr:w-205,ar-205-281,pr-true,f-auto,q-80/inventory/banner/d53f41b4-ef6e-41a1-ba30-466da70691cf.png" alt="">
+                    </div>
+                </div>
+            </div>
+          </div>
+          <!-- cards end here -->
+           <!-- img here -->
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <img src="https://cdn.zeptonow.com/production///tr:w-720,ar-720-148,pr-true,f-auto,q-80/inventory/banner/3d713b7b-39e2-448d-84a8-f607de8306c8.png" alt="2">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ends here -->
+
+            <!-- grid start here -->
+
+          <div class="container mt-5">
+            <div class="ram">
+
+                <img src="https://cdn.zeptonow.com/production///tr:w-350,ar-1080-1080,pr-true,f-auto,q-80/cms/product_variant/95299d19-1962-439e-b2f7-69f34e8551aa.jpg" alt="">
+                <img src="https://cdn.zeptonow.com/production///tr:w-350,ar-1000-1000,pr-true,f-auto,q-80/cms/product_variant/15b4c570-8963-43f4-b805-2dbf3be809a9.jpeg" alt="">
+                <img src="https://cdn.zeptonow.com/production///tr:w-350,ar-1500-1500,pr-true,f-auto,q-80/cms/product_variant/61ae1028-4a8b-4ed6-90ec-63524f703eb0.jpeg" alt="">
+                <img src="https://cdn.zeptonow.com/production///tr:w-0.98,h-0.98,f-auto/cms/product_variant/626445b4-4407-4497-9b26-d66e8b78ea63.jpeg" alt="">
+                <img src="https://cdn.zeptonow.com/production///tr:w-350,ar-1000-1000,pr-true,f-auto,q-80/cms/product_variant/b70c117c-2f6d-4866-ad3e-89cc9b881a4e.jpeg" alt="">
+                <img src="https://cdn.zeptonow.com/production///tr:w-350,ar-1021-1021,pr-true,f-auto,q-80/cms/product_variant/7505be52-5019-4271-8914-ca568b09893a.jpeg" alt="">
+                <img src="https://cdn.zeptonow.com/production///tr:w-350,ar-1080-1080,pr-true,f-auto,q-80/cms/product_variant/97b083a2-d645-48fc-8be3-d10596ebf892.jpeg" alt="">
+               </div>
+          </div>
+             <!-- grid ends here -->
+              <!-- here the see all image  -->
+               <div class="container mt-5">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card ">
+                            <img class="mb-5" src="https://cdn.zeptonow.com/production///tr:w-720,ar-720-106,pr-true,f-auto,q-80/inventory/banner/93c5330e-79d9-4528-81c2-d3e3df88b546.png" alt="">
+                        </div>
+                    </div>
+                </div>
+               </div>
+               <!-- ends here -->
+                <!-- home & bedroom & bathroom -->
+                 <div class="container mt-5 ">
+                    <div class="row">
+                       
+                            <div class="col-md-4 text-center">
+                                <img class="img-fluid mr-5" src="https://cdn.zeptonow.com/production///tr:w-205,ar-205-357,pr-true,f-auto,q-80/inventory/banner/f4cf71f8-e0f7-48c8-993c-124442828f00.png" alt="">
+                            </div>
+                            <div class="col-md-4 text-center ">
+                                <img class="img-fluid" src="https://cdn.zeptonow.com/production///tr:w-205,ar-205-357,pr-true,f-auto,q-80/inventory/banner/4c9055fb-d544-4bb6-bfd1-9ec5dbb6af1c.png" alt="">
+                            </div>
+                            <div class="col-md-4 text-center">
+                                <img class="img-fluid" src="https://cdn.zeptonow.com/production///tr:w-205,ar-205-357,pr-true,f-auto,q-80/inventory/banner/4bfecdf7-3dbf-4b7d-b331-d7ad11400701.png" alt="">
+                            </div>
+                        
+                    </div>
+                 </div>
+                 <!-- ends here -->
+                  
+                 <!-- pick from the best dealing app -->
+                  <div class="container mt-5">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card">
+                                <img class="img-fluid" src="https://cdn.zeptonow.com/production///tr:w-720,ar-720-148,pr-true,f-auto,q-80/inventory/banner/69649120-3726-4004-896e-17f5bd3a836d.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <!-- ends here -->
+
+                  <!-- tissues start here  -->
+
+                  <div class="container mt-5 aluri">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <div class="card kamal">
+                                <img class="img-fluid" src="https://cdn.zeptonow.com/production///tr:w-350,ar-1205-1134,pr-true,f-auto,q-80/cms/product_variant/07002ddc-0a2d-4f14-b3d8-ddd0da66c8b8.jpeg" alt="">
+                                <p>Origami luncheon Tissue Paper Napkins - 32 X 32 cm - 50 Serviettes
+                                  1 Piece</p>
+                                  <div class="pricing">
+                                    <p><i class="fa-solid fa-indian-rupee-sign"></i><b>65</b></p><p class="text-decoration-line-through mx-2">98</p>
+                                  </div>
+                                  <button class="btn btn-type">ADD TO CART</button>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="card kamal">
+                                <img class="img-fluid" src="https://cdn.zeptonow.com/production///tr:w-350,ar-1000-1000,pr-true,f-auto,q-80/cms/product_variant/22e5257a-35a7-41f5-9349-6400daf8bdac.jpeg" alt="">
+                                <p>Origami luncheon Tissue Paper Napkins - 32 X 32 cm - 50 Serviettes
+                                 1 Piece</p>
+                                 <div class="pricing">
+                                    <p><i class="fa-solid fa-indian-rupee-sign"></i><b>65</b></p><p class="text-decoration-line-through mx-2">98</p>
+                                  </div>
+                                 <button class="btn btn-type">ADD TO CART</button>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="card kamal">
+                                <img class="img-flid" src="https://cdn.zeptonow.com/production///tr:w-350,ar-1000-1000,pr-true,f-auto,q-80/cms/product_variant/4b9618b4-2872-4c03-bc0b-750d4c991202.jpeg" alt="">
+                                <p>Origami luncheon Tissue Paper Napkins - 32 X 32 cm - 50 Serviettes
+                                1 Piece</p>
+                                <div class="pricing">
+                                    <p><i class="fa-solid fa-indian-rupee-sign"></i><b>65</b></p><p class="text-decoration-line-through mx-2">98</p>
+                                  </div>
+                                <button class="btn btn-type">ADD TO CART</button>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="card kamal">
+                                <img class="img-fluid" src="https://cdn.zeptonow.com/production///tr:w-350,ar-1000-1000,pr-true,f-auto,q-80/cms/product_variant/e8cd0dcd-7e08-4790-9e00-babaa1e65c51.jpeg" alt="">
+                                <p>Origami luncheon Tissue Paper Napkins - 32 X 32 cm - 50 Serviettes
+                                 1 Piece</p>
+                                 <div class="pricing">
+                                    <p><i class="fa-solid fa-indian-rupee-sign"></i><b>65</b></p><p class="text-decoration-line-through mx-2">98</p>
+                                  </div>
+                                 <button class="btn btn-type">ADD TO CART</button>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="card kamal">
+                                <img class="img-fluid" src="https://cdn.zeptonow.com/production///tr:w-350,ar-1338-1413,pr-true,f-auto,q-80/cms/product_variant/82c9f543-2a6a-4147-a019-9133f7e74295.jpeg" alt="">
+                                <p>Origami luncheon Tissue Paper Napkins - 32 X 32 cm - 50 Serviettes
+                                 1 Piece</p>
+                                 <div class="pricing">
+                                    <p><i class="fa-solid fa-indian-rupee-sign"></i><b>65</b></p><p class="text-decoration-line-through mx-2">98</p>
+                                  </div>
+                                 <button class="btn btn-type">ADD TO CART</button>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="card kamal">
+                                <img class="img-fluid" src="https://cdn.zeptonow.com/production///tr:w-350,ar-1205-1134,pr-true,f-auto,q-80/cms/product_variant/07002ddc-0a2d-4f14-b3d8-ddd0da66c8b8.jpeg" alt="">
+                                <p>Origami luncheon Tissue Paper Napkins - 32 X 32 cm - 50 Serviettes
+                                 1 Piece</p>
+                                 <div class="pricing">
+                                    <p><i class="fa-solid fa-indian-rupee-sign"></i><b>65</b></p><p class="text-decoration-line-through mx-2">98</p>
+                                  </div>
+                                 <button class="btn btn-type">ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                   <!-- tissues ends here -->
+
+                   <!-- see all -->
+                    <div class="container mt-5">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="card">
+                                    <img class="mb-5" src="https://cdn.zeptonow.com/production///tr:w-720,ar-720-106,pr-true,f-auto,q-80/inventory/banner/3041a3a3-197a-4779-a237-3b909e277ef5.png" alt="see all">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- see all end code here -->
+
+
+                    <!-- pooja saman start here -->
+                     <div class="container mt-5">
+                        <div class="row" style="background-color: pink; border-radius: 40px">
+                           
+                            <div class="col-md-3 mt-3 ">
+                                <img class="img-fluid " src="https://cdn.zeptonow.com/production///tr:w-316,ar-316-356,pr-true,f-auto,q-80/inventory/banner/eb5ff19a-47be-44ad-b9af-400097dff285.png" alt="">
+                            </div>
+                            <div class="col-md-3 mt-3">
+                                <img class="img-fluid" src="https://cdn.zeptonow.com/production///tr:w-316,ar-316-356,pr-true,f-auto,q-80/inventory/banner/502648b8-8206-428b-8ad0-f39cfa37474e.png" alt="">
+                            </div>
+                            <div class="col-md-3 mt-3">
+                                <img class="img-fluid" src="https://cdn.zeptonow.com/production///tr:w-316,ar-316-356,pr-true,f-auto,q-80/inventory/banner/58510b11-27c8-460e-a9b4-e1b4338e5cba.png" alt="">
+                            </div>
+                            <div class="col-md-3 mt-3">
+                                <img class="img-fluid" src="https://cdn.zeptonow.com/production///tr:w-316,ar-316-356,pr-true,f-auto,q-80/inventory/banner/0f8e32f2-aefb-4349-8656-1cc2a74a59ba.png" alt="">
+                            </div>
+                            </div>
+                      
+                     </div>
+                     <!-- pooja saman end here -->
+
+
+                     <!-- for our vechile auto start here -->
+                      <div class="container-fluid mt-5">
+                        <div class="row">
+                            <img class="img-fluid" src="https://cdn.zeptonow.com/production///tr:w-720,ar-720-148,pr-true,f-auto,q-80/inventory/banner/80ec7530-28ae-44e2-a63b-d0ca85961b84.png" alt=" ">
+                        </div>
+                      </div>
+                      <!-- for our vechile auot end here -->
+                       <!-- carsoul start here -->
+                       <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner mt-5">
+                          <div class="carousel-item active" data-bs-interval="10000">
+                           <div class="row">
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <img  class="img" src="https://cdn.zeptonow.com/production///tr:w-350,ar-438-779,pr-true,f-auto,q-80/inventory/product/67d58c52-b9cb-4958-852c-1cfbf375edd8-1C8XdS2HjdDtmUiRtlGtM_tQ3vKLe7avG.jpeg" alt="" style="height: 350px ;">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <img class="img-fluid" src="https://cdn.zeptonow.com/production///tr:w-350,ar-1000-1000,pr-true,f-auto,q-80/cms/product_variant/0af4d0cf-44f4-464e-a87d-1a172a9b2bc7.jpeg" alt="" style="height: 350px ;"> 
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <img class="img-fluid" src="https://cdn.zeptonow.com/production///tr:w-350,ar-3745-3745,pr-true,f-auto,q-80/cms/product_variant/cf74ad2f-a637-4ed5-bf8e-7b6d0bb29430.jpeg" alt="" style="height: 350px ;">
+                                </div>
+                            </div>
+                           </div>
+                            
+                          </div>
+                          <div class="carousel-item" data-bs-interval="2000">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <img class="img-fluid" src="https://cdn.zeptonow.com/production///tr:w-350,ar-438-779,pr-true,f-auto,q-80/inventory/product/67d58c52-b9cb-4958-852c-1cfbf375edd8-1C8XdS2HjdDtmUiRtlGtM_tQ3vKLe7avG.jpeg" alt="" style="height: 350px ;">
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <img class="img-fluid" src="https://cdn.zeptonow.com/production///tr:w-350,ar-1000-1000,pr-true,f-auto,q-80/cms/product_variant/0af4d0cf-44f4-464e-a87d-1a172a9b2bc7.jpeg" alt="" style="height: 350px ;">
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <img class="img-fluid" src="https://cdn.zeptonow.com/production///tr:w-350,ar-3745-3745,pr-true,f-auto,q-80/cms/product_variant/cf74ad2f-a637-4ed5-bf8e-7b6d0bb29430.jpeg" alt="" style="height: 350px ;">
+                                    </div>
+                                </div>
+                               </div>
+                          </div>
+                          <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <img class="img-fluid" src="https://cdn.zeptonow.com/production///tr:w-350,ar-438-779,pr-true,f-auto,q-80/inventory/product/67d58c52-b9cb-4958-852c-1cfbf375edd8-1C8XdS2HjdDtmUiRtlGtM_tQ3vKLe7avG.jpeg" alt="" style="height: 350px ;">
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <img class="img-fluid" src="https://cdn.zeptonow.com/production///tr:w-350,ar-1000-1000,pr-true,f-auto,q-80/cms/product_variant/0af4d0cf-44f4-464e-a87d-1a172a9b2bc7.jpeg" alt="" style="height: 350px ;">
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <img class="img-fluid" src="https://cdn.zeptonow.com/production///tr:w-350,ar-3745-3745,pr-true,f-auto,q-80/cms/product_variant/cf74ad2f-a637-4ed5-bf8e-7b6d0bb29430.jpeg" alt="" style="height: 350px ;">
+                                    </div>
+                                </div>
+                               </div>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                        <!-- carsoul end here -->
+
+                        <!-- see all code start  -->
+                         <div class="container mt-5 ">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="card see">
+                                        <img class="img-fluid mb-5" src="https://cdn.zeptonow.com/production///tr:w-720,ar-720-106,pr-true,f-auto,q-80/inventory/banner/aaf5c786-09f8-47ab-b035-97e3b80f493a.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                         </div>
+                         <!-- see all code ends -->
+
+
+                         <!-- offers  starts -->
+                          <div class="container mt-5">
+                            <div class="row">
+                                <div class="col-md-2"></div>
+                                <div class="col-md-4">
+                                  
+                                        <img class="img-fluid" src="https://cdn.zeptonow.com/production///tr:w-316,ar-316-212,pr-true,f-auto,q-80/inventory/banner/f904a614-8b6e-4438-9fac-33e26eb09dc2.png" alt="">
+                                    
+                                </div>
+                                <div class="col-md-4">
+                                   
+                                        <img class="img-fluid" src="https://cdn.zeptonow.com/production///tr:w-316,ar-316-212,pr-true,f-auto,q-80/inventory/banner/968bce37-42bf-457f-af1b-03315dbf9a42.png" alt="">
+                                   
+                                </div>
+                                <div class="col-md-2"></div>
+
+                            </div>
+                          </div>
+                          <!-- offers ends -->
+
+                          <!-- organise your space  -->
+                           <div class="container mt-5">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <img class="w-100"  src="https://cdn.zeptonow.com/production///tr:w-720,ar-720-148,pr-true,f-auto,q-80/inventory/banner/848445a0-8084-41fd-b86e-13e16a74d0f2.png" alt="">
+                                </div>
+                            </div>
+                           </div>
+                           <!-- ends here -->
+                            <!-- tissue starts here -->
+                            <div class="container mt-5 aluri">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <div class="card kamal">
+                                            <img class="img-fluid" src="https://cdn.zeptonow.com/production///tr:w-350,ar-1000-1000,pr-true,f-auto,q-80/inventory/product/18978210-f804-45c0-a804-3131ad0ba912-/tmp/20230714-1141371.jpeg" alt="">
+                                            <p>Origami luncheon Tissue Paper Napkins - 32 X 32 cm - 50 Serviettes
+                                              1 Piece</p>
+                                              <div class="pricing">
+                                                <p><i class="fa-solid fa-indian-rupee-sign"></i><b>65</b></p><p class="text-decoration-line-through mx-2">98</p>
+                                              </div>
+                                              <button class="btn btn-type">ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="card kamal">
+                                            <img class="img-fluid" src="https://cdn.zeptonow.com/production///tr:w-350,ar-1021-1021,pr-true,f-auto,q-80/cms/product_variant/c38f9441-6abd-4596-8ffa-6050a1acb207.jpeg" alt="">
+                                            <p>Origami luncheon Tissue Paper Napkins - 32 X 32 cm - 50 Serviettes
+                                             1 Piece</p>
+                                             <div class="pricing">
+                                                <p><i class="fa-solid fa-indian-rupee-sign"></i><b>65</b></p><p class="text-decoration-line-through mx-2">98</p>
+                                              </div>
+                                             <button class="btn btn-type">ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="card kamal">
+                                            <img class="img-flid" src="https://cdn.zeptonow.com/production///tr:w-350,ar-1500-1500,pr-true,f-auto,q-80/inventory/product/acf98140-eff8-41fc-a31e-40dcf3097baa-/tmp/20230302-1441231.jpeg" alt="">
+                                            <p>Origami luncheon Tissue Paper Napkins - 32 X 32 cm - 50 Serviettes
+                                            1 Piece</p>
+                                            <div class="pricing">
+                                                <p><i class="fa-solid fa-indian-rupee-sign"></i><b>65</b></p><p class="text-decoration-line-through mx-2">98</p>
+                                              </div>
+                                            <button class="btn btn-type">ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="card kamal">
+                                            <img class="img-fluid" src="https://cdn.zeptonow.com/production///tr:w-350,ar-1184-651,pr-true,f-auto,q-80/inventory/product/fe80a316-cf9c-4889-845c-301f112d308c-1mQ2YKjTowwgdJIVxrXeJqrjwjIqfI8YC.jpeg" alt="">
+                                            <p>Origami luncheon Tissue Paper Napkins - 32 X 32 cm - 50 Serviettes
+                                             1 Piece</p>
+                                             <div class="pricing">
+                                                <p><i class="fa-solid fa-indian-rupee-sign"></i><b>65</b></p><p class="text-decoration-line-through mx-2">98</p>
+                                              </div>
+                                             <button class="btn btn-type">ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="card kamal">
+                                            <img class="img-fluid" src="https://cdn.zeptonow.com/production///tr:w-350,ar-1021-1021,pr-true,f-auto,q-80/cms/product_variant/b0a755c2-0f60-4295-9ced-086295ac7572.jpeg" alt="">
+                                            <p>Origami luncheon Tissue Paper Napkins - 32 X 32 cm - 50 Serviettes
+                                             1 Piece</p>
+                                             <div class="pricing">
+                                                <p><i class="fa-solid fa-indian-rupee-sign"></i><b>65</b></p><p class="text-decoration-line-through mx-2">98</p>
+                                              </div>
+                                             <button class="btn btn-type">ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="card kamal">
+                                            <img class="img-fluid" src="https://cdn.zeptonow.com/production///tr:w-350,ar-554-554,pr-true,f-auto,q-80/inventory/product/2cc53e51-0f1e-4df3-89a8-1a9477b54282-1LKO7oUu5C2G-SWsTdRdtXUBY87ocKEmt.jpeg" alt="">
+                                            <p>Origami luncheon Tissue Paper Napkins - 32 X 32 cm - 50 Serviettes
+                                             1 Piece</p>
+                                             <div class="pricing">
+                                                <p><i class="fa-solid fa-indian-rupee-sign"></i><b>65</b></p><p class="text-decoration-line-through mx-2">98</p>
+                                              </div>
+                                             <button class="btn btn-type">ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                             <!-- tissue ends here -->
+
+
+                             <!-- see all image  -->
+                             <div class="container mt-5 ">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="card see">
+                                            <img class="img-fluid mb-5" src="https://cdn.zeptonow.com/production///tr:w-720,ar-720-106,pr-true,f-auto,q-80/inventory/banner/aaf5c786-09f8-47ab-b035-97e3b80f493a.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                             </div>
+                              <!-- see all ends here -->
+
+
+                              <!-- decarative lights start here -->
+                              <div class="container mt-5 ">
+                                <div class="row">
+                                   
+                                        <div class="col-md-4 text-center">
+                                            <img class="img-fluid" src="https://cdn.zeptonow.com/production///tr:w-204,ar-204-356,pr-true,f-auto,q-80/inventory/banner/e173440e-fe6f-4b0e-a02b-cda0431276dd.png" alt="">
+                                            
+                                        </div>
+                                        <div class="col-md-4 text-center ">
+                                            <img class="img-fluid" src="https://cdn.zeptonow.com/production///tr:w-204,ar-204-356,pr-true,f-auto,q-80/inventory/banner/cc223307-8d4f-4d1e-8773-84e523002a77.png" alt="">
+                                        </div>
+                                        <div class="col-md-4 text-center">
+                                            <img class="img-fluid" src="https://cdn.zeptonow.com/production///tr:w-204,ar-204-356,pr-true,f-auto,q-80/inventory/banner/b607c033-5cc2-40b8-83d8-2767ab5df85f.png" alt="">
+                                        </div>
+                                    
+                                </div>
+                             </div>
+                               <!-- ends here -->
+
+                               <!-- pooja esstinals starts -->
+                                <div class="container mt-5">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <img class="img-fluid w-100" src="https://cdn.zeptonow.com/production///tr:w-720,ar-720-148,pr-true,f-auto,q-80/inventory/banner/c279552e-552f-4c93-8e12-ebf5741c46b6.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end here -->
+
+                                <!-- pooja saman  cards start here-->
+                                <div class="container mt-5 aluri">
+                                    <div class="row">
+                                        <div class="col-md-2">
+                                            <div class="card kamal">
+                                                <img class="img-fluid" src="https://cdn.zeptonow.com/production///tr:w-350,ar-1078-1078,pr-true,f-auto,q-80/cms/product_variant/7809118e-73ad-4f10-867d-9bdb92f7bb4e.jpeg" alt="">
+                                                <p>Origami luncheon Tissue Paper Napkins - 32 X 32 cm - 50 Serviettes
+                                                  1 Piece</p>
+                                                  <div class="pricing">
+                                                    <p><i class="fa-solid fa-indian-rupee-sign"></i><b>65</b></p><p class="text-decoration-line-through mx-2">98</p>
+                                                  </div>
+                                                  <button class="btn btn-type">ADD TO CART</button>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <div class="card kamal">
+                                                <img class="img-fluid" src="https://cdn.zeptonow.com/production///tr:w-350,ar-1021-1021,pr-true,f-auto,q-80/cms/product_variant/11f56979-e579-40b1-91e8-68b3f9609127.jpeg" alt="">
+                                                <p>Origami luncheon Tissue Paper Napkins - 32 X 32 cm - 50 Serviettes
+                                                 1 Piece</p>
+                                                 <div class="pricing">
+                                                    <p><i class="fa-solid fa-indian-rupee-sign"></i><b>65</b></p><p class="text-decoration-line-through mx-2">98</p>
+                                                  </div>
+                                                 <button class="btn btn-type">ADD TO CART</button>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <div class="card kamal">
+                                                <img class="img-flid" src="https://cdn.zeptonow.com/production///tr:w-350,ar-1021-1021,pr-true,f-auto,q-80/cms/product_variant/0c28cb3b-baf9-49cc-9c3d-236c0b8b7d19.jpeg" alt="">
+                                                <p>Origami luncheon Tissue Paper Napkins - 32 X 32 cm - 50 Serviettes
+                                                1 Piece</p>
+                                                <div class="pricing">
+                                                    <p><i class="fa-solid fa-indian-rupee-sign"></i><b>65</b></p><p class="text-decoration-line-through mx-2">98</p>
+                                                  </div>
+                                                <button class="btn btn-type">ADD TO CART</button>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <div class="card kamal">
+                                                <img class="img-fluid" src="https://cdn.zeptonow.com/production///tr:w-350,ar-980-980,pr-true,f-auto,q-80/cms/product_variant/e5c1a17c-ce02-4ecf-8a7a-510566f301dc.jpeg" alt="">
+                                                <p>Origami luncheon Tissue Paper Napkins - 32 X 32 cm - 50 Serviettes
+                                                 1 Piece</p>
+                                                 <div class="pricing">
+                                                    <p><i class="fa-solid fa-indian-rupee-sign"></i><b>65</b></p><p class="text-decoration-line-through mx-2">98</p>
+                                                  </div>
+                                                 <button class="btn btn-type">ADD TO CART</button>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <div class="card kamal">
+                                                <img class="img-fluid" src="https://cdn.zeptonow.com/production///tr:w-350,ar-980-980,pr-true,f-auto,q-80/cms/product_variant/a01ed575-9930-47dd-b676-efb7303e1ab7.jpeg" alt="">
+                                                <p>Origami luncheon Tissue Paper Napkins - 32 X 32 cm - 50 Serviettes
+                                                 1 Piece</p>
+                                                 <div class="pricing">
+                                                    <p><i class="fa-solid fa-indian-rupee-sign"></i><b>65</b></p><p class="text-decoration-line-through mx-2">98</p>
+                                                  </div>
+                                                 <button class="btn btn-type">ADD TO CART</button>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <div class="card kamal">
+                                                <img class="img-fluid" src="https://cdn.zeptonow.com/production///tr:w-350,ar-1078-1078,pr-true,f-auto,q-80/cms/product_variant/46487bf0-47a0-48f6-a725-d045f9d64dc0.jpeg" alt="">
+                                                <p>Origami luncheon Tissue Paper Napkins - 32 X 32 cm - 50 Serviettes
+                                                 1 Piece</p>
+                                                 <div class="pricing">
+                                                    <p><i class="fa-solid fa-indian-rupee-sign"></i><b>65</b></p><p class="text-decoration-line-through mx-2">98</p>
+                                                  </div>
+                                                 <button class="btn btn-type">ADD TO CART</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                  </div>
+                                 
+                                 <!-- pooja saman end here -->
+
+                                 <!-- see all image -->
+                                 <div class="container mt-5 ">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="card see">
+                                                <img class="img-fluid mb-5" src="https://cdn.zeptonow.com/production///tr:w-720,ar-720-106,pr-true,f-auto,q-80/inventory/banner/aaf5c786-09f8-47ab-b035-97e3b80f493a.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                 </div>
+                                  <!-- see all end here -->
+
+                                  <!-- kitchen start here  -->
+                                   <div class="container mt-5">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <img class="img-fluid w-100" src="https://cdn.zeptonow.com/production///tr:w-720,ar-720-149,pr-true,f-auto,q-80/inventory/banner/2a6fb4e4-1b7d-466a-94de-8940b0a16f49.png" alt="">
+                                        </div>
+                                    </div>
+                                   </div>
+                                   <!-- kitchen end here -->
+
+
+                                   <!-- kitchen cards  start here -->
+                                   <div class="container mt-5 aluri">
+                                    <div class="row">
+                                        <div class="col-md-2">
+                                            <div class="card kamal">
+                                                <img class="img-fluid" src="https://cdn.zeptonow.com/production///tr:w-350,ar-933-658,pr-true,f-auto,q-80/cms/product_variant/ac5dee98-1135-4c7f-804c-81090670fe90.jpeg" alt="">
+                                                <p>Origami luncheon Tissue Paper Napkins - 32 X 32 cm - 50 Serviettes
+                                                  1 Piece</p>
+                                                  <div class="pricing">
+                                                    <p><i class="fa-solid fa-indian-rupee-sign"></i><b>65</b></p><p class="text-decoration-line-through mx-2">98</p>
+                                                  </div>
+                                                  <button class="btn btn-type">ADD TO CART</button>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <div class="card kamal">
+                                                <img class="img-fluid" src="https://cdn.zeptonow.com/production///tr:w-350,ar-950-626,pr-true,f-auto,q-80/cms/product_variant/c1737b78-c67f-49af-98e9-955594b596a5.jpeg" alt="">
+                                                <p>Origami luncheon Tissue Paper Napkins - 32 X 32 cm - 50 Serviettes
+                                                 1 Piece</p>
+                                                 <div class="pricing">
+                                                    <p><i class="fa-solid fa-indian-rupee-sign"></i><b>65</b></p><p class="text-decoration-line-through mx-2">98</p>
+                                                  </div>
+                                                 <button class="btn btn-type">ADD TO CART</button>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <div class="card kamal">
+                                                <img class="img-flid" src="https://cdn.zeptonow.com/production///tr:w-350,ar-1000-1000,pr-true,f-auto,q-80/cms/product_variant/45835116-92dd-4774-a164-6309925c3768.jpeg" alt="">
+                                                <p>Origami luncheon Tissue Paper Napkins - 32 X 32 cm - 50 Serviettes
+                                                1 Piece</p>
+                                                <div class="pricing">
+                                                    <p><i class="fa-solid fa-indian-rupee-sign"></i><b>65</b></p><p class="text-decoration-line-through mx-2">98</p>
+                                                  </div>
+                                                <button class="btn btn-type">ADD TO CART</button>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <div class="card kamal">
+                                                <img class="img-fluid" src="https://cdn.zeptonow.com/production///tr:w-350,ar-2000-2000,pr-true,f-auto,q-80/cms/product_variant/6a366258-87c3-4594-99d3-1a656a956a03.jpeg" alt="">
+                                                <p>Origami luncheon Tissue Paper Napkins - 32 X 32 cm - 50 Serviettes
+                                                 1 Piece</p>
+                                                 <div class="pricing">
+                                                    <p><i class="fa-solid fa-indian-rupee-sign"></i><b>65</b></p><p class="text-decoration-line-through mx-2">98</p>
+                                                  </div>
+                                                 <button class="btn btn-type">ADD TO CART</button>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <div class="card kamal">
+                                                <img class="img-fluid" src="https://cdn.zeptonow.com/production///tr:w-350,ar-948-565,pr-true,f-auto,q-80/cms/product_variant/ed00ce07-ed63-4e5a-b09c-9bf71933146e.jpeg" alt="">
+                                                <p>Origami luncheon Tissue Paper Napkins - 32 X 32 cm - 50 Serviettes
+                                                 1 Piece</p>
+                                                 <div class="pricing">
+                                                    <p><i class="fa-solid fa-indian-rupee-sign"></i><b>65</b></p><p class="text-decoration-line-through mx-2">98</p>
+                                                  </div>
+                                                 <button class="btn btn-type">ADD TO CART</button>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <div class="card kamal">
+                                                <img class="img-fluid" src="https://cdn.zeptonow.com/production///tr:w-350,ar-984-327,pr-true,f-auto,q-80/cms/product_variant/87208bc3-3ca1-4515-a716-7beb77f5460d.jpeg" alt="">
+                                                <p>Origami luncheon Tissue Paper Napkins - 32 X 32 cm - 50 Serviettes
+                                                 1 Piece</p>
+                                                 <div class="pricing">
+                                                    <p><i class="fa-solid fa-indian-rupee-sign"></i><b>65</b></p><p class="text-decoration-line-through mx-2">98</p>
+                                                  </div>
+                                                 <button class="btn btn-type">ADD TO CART</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                  </div>
+                                    <!-- kitchen cards end here -->
+
+                                       <!-- see all image -->
+                                 <div class="container mt-5 ">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="card see">
+                                                <img class="img-fluid mb-5" src="https://cdn.zeptonow.com/production///tr:w-720,ar-720-106,pr-true,f-auto,q-80/inventory/banner/aaf5c786-09f8-47ab-b035-97e3b80f493a.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                 </div>
+                                  <!-- see all end here -->
+
+
+                                  <!-- kitchen applicances start here -->
+                                  <div class="container mt-5 ">
+                                    <div class="row">
+                                       
+                                            <div class="col-md-4 text-center">
+                                                <img class="img-fluid" src="https://cdn.zeptonow.com/production///tr:w-204,ar-204-353,pr-true,f-auto,q-80/inventory/banner/cb6cc183-c1bc-4d06-b2af-fc69afe1357c.png" alt="">
+                                                
+                                            </div>
+                                            <div class="col-md-4 text-center ">
+                                                <img class="img-fluid" src="https://cdn.zeptonow.com/production///tr:w-204,ar-204-353,pr-true,f-auto,q-80/inventory/banner/d001c918-8a87-4568-af9f-d4b224c23709.png" alt="">
+                                            </div>
+                                            <div class="col-md-4 text-center">
+                                                <img class="img-fluid" src="https://cdn.zeptonow.com/production///tr:w-204,ar-204-352,pr-true,f-auto,q-80/inventory/banner/75fea5bd-d78b-49fd-a626-bcf1ea1346c5.png" alt="">
+                                            </div>
+                                        
+                                    </div>
+                                 </div>
+                                   <!-- kitchen applicances end here -->
+
+                                   <!-- sopa start -->
+                                    <div class="container mt-5">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <img class="img-fluid w-100" src="https://cdn.zeptonow.com/production///tr:w-721,ar-721-507,pr-true,f-auto,q-80/inventory/banner/28227848-01d1-4e58-8c3d-a7ea925da96a.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- sopa end -->
+
+            
+    
+</body>
+</html>
